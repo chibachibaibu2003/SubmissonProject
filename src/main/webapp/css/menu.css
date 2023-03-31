@@ -1,0 +1,192 @@
+body{
+  background: color #afedf8;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: #b7ff6f;
+    border: 4px solid #707070;
+    box-sizing: border-box;
+    
+    }
+   
+   
+.title {
+    margin-right: auto;
+    margin: 0px;
+    padding: 0px;
+    font-family:"book antiqua"
+}
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+  }
+
+h1{
+    vertical-align: middle;
+}
+h1 img
+{
+	vertical-align: middle;
+}
+
+.search{
+width: 300px;
+height: 50px;
+background: #fff;
+border: 2px solid #707070;
+transform:translate(110px,0px);
+}
+
+
+.search_button{
+  margin-top:10px;
+  margin-right: 20px;
+  width: 5em;
+  height:3.5em;
+  transform: translate(110px,0px);
+}
+
+.header{
+	display:flex;
+}
+.right{
+      display:flex;
+      width:430px;
+      padding:10px 10px 10px ;
+  }
+  .left{
+      width:calc(100% - 300px);
+  }
+.box1{
+  width: 68%;
+  height: 80px;
+  background: transparent;
+  background-color: white;
+  position:relative;
+  border: solid 3px #535353;
+  top: 10px;
+  margin:0 auto;
+ display:flex;
+}
+.box1 a{
+  float:left;
+  margin: 15px 10px ;
+  text-decoration: none;
+  color:black;
+}
+
+.box1 a:hover{
+	color:darkgray;
+}
+.linebox_a{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(230, 227, 232);
+  border:1px solid black;
+  justify-content: center;
+  align-items: center;
+  transform: translate(280px, -16px);
+  display:flex;
+  text-decoration: none;
+  color:black;
+}
+.linebox_a:hover{
+  color:white;
+}
+.linebox_b{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(230, 227, 232);
+  border:1px solid black;
+  justify-content: center;
+  align-items: center;
+  transform: translate(139px, 25px);
+  text-decoration: none;
+  color:black;
+  display:flex;
+}
+.linebox_b:hover{
+  color:white;
+}
+
+.linebox_c{
+  width: 120px;
+  height: 80px;
+  background-color: rgb(230, 227, 232);
+  border:1px solid black;
+  justify-content: center;
+  align-items: center;
+  transform: translate(290px, -16px);
+  text-decoration: none;
+  color:black;
+  display:flex;
+}
+.linebox_c:hover{
+  color:white;
+}
+
+.osusume{
+  margin: 30px 50px;
+  text-align: center;
+}
+
+.booktitle_a{
+	width:200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.yoko{
+  display:-webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-aruond;
+  justify-content: space-around;
+}
+
+.osusume_book_1{
+	display: flex;
+	justify-content: space-around
+}
+
+.osusume_title_1{
+	margin-bottom: -25px;
+}
+.osusume_title_2{
+	margin-bottom: -25px;
+}
+.osusume_title_3{
+	margin-bottom: -25px;
+}
+.osusume_title_4{
+	margin-bottom: -25px;
+}
+
+.osusume_itiran{
+  display:flex;
+  justify-content: space-around
+}
+
+.osusume_book_1{
+}
+.osusume_book_2{
+}
+.osusume_book_3{
+}
+.osusume_book_4{
+}
+.dotted_line{
+  width: 85%;
+  text-align:  center;  
+  margin: 0 100px;
+  border-bottom: 4px dotted black;
+
+}
+.dotted_line p{
+ margin: 0 100px;
+}
